@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Span.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kawaharadaryou <kawaharadaryou@student.    +#+  +:+       +#+        */
+/*   By: rkawahar <rkawahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/18 13:50:52 by kawaharadar       #+#    #+#             */
-/*   Updated: 2024/12/18 17:32:42 by kawaharadar      ###   ########.fr       */
+/*   Updated: 2025/10/25 18:38:57 by rkawahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ private:
 	Span();
 
 public:
-    Span(unsigned int n);
+    Span(long n);
     ~Span();
 	Span(const Span &other);
 	Span &operator=(const Span &other);

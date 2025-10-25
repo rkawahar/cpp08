@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Span.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kawaharadaryou <kawaharadaryou@student.    +#+  +:+       +#+        */
+/*   By: rkawahar <rkawahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/18 13:50:54 by kawaharadar       #+#    #+#             */
-/*   Updated: 2024/12/18 17:32:32 by kawaharadar      ###   ########.fr       */
+/*   Updated: 2025/10/25 18:44:18 by rkawahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,10 @@
 
 Span::Span() : _max_size(0) {}
 
-Span::Span(unsigned int n) : _max_size(n) {}
+Span::Span(long n) : _max_size(n) {
+	if (n < 0) 
+		throw std::out_of_range("Int must be unsigned int");
+}
 
 Span::Span(const Span &other) : _max_size(other._max_size) {
 	unsigned int size = other._vec.size();

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kawaharadaryou <kawaharadaryou@student.    +#+  +:+       +#+        */
+/*   By: rkawahar <rkawahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/18 13:50:57 by kawaharadar       #+#    #+#             */
-/*   Updated: 2024/12/18 15:14:39 by kawaharadar      ###   ########.fr       */
+/*   Updated: 2025/10/25 18:43:43 by rkawahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,4 +95,19 @@ int main() {
 	{
 		std::cerr << e.what() << std::endl;
 	}
+	std::cout << std::endl;
+	std::cout << "test6" << std::endl;
+	try
+	{
+		Span sp = Span(-42);
+		sp.addNumber(0);
+		sp.addNumber(42);
+		std::cout << sp.shortestSpan() << std::endl;
+		std::cout << sp.longestSpan() << std::endl;
+	}
+	catch(const std::exception& e)
+	{
+		std::cerr << e.what() << std::endl;
+	}
+	
 }
