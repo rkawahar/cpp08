@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   easyfind.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kawaharadaryou <kawaharadaryou@student.    +#+  +:+       +#+        */
+/*   By: rkawahar <rkawahar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/18 13:25:51 by kawaharadar       #+#    #+#             */
-/*   Updated: 2024/12/18 13:40:43 by kawaharadar      ###   ########.fr       */
+/*   Updated: 2025/10/25 18:27:19 by rkawahar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
